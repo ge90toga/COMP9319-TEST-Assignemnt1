@@ -17,8 +17,11 @@ class Case():
         return self.name;
 
     def read_debug_file(self):
-        with open(self.test_root + '/' + self.debug_file , 'r') as f:
-            self.debug_str = f.read()
+        if self.debug_file == "":
+            self.debug_str = None
+        else:
+            with open(self.test_root + '/' + self.debug_file , 'r') as f:
+                self.debug_str = f.read()
 
     def get_debug_str(self):
         return self.debug_str
