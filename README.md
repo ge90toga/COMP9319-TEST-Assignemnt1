@@ -2,7 +2,7 @@ This project is a test script for the 1st assignemt COMP9319 Web Data Compressio
 and Search.
 
 ## Test cases
-- currently we have 7 [test cases](https://drive.google.com/file/d/0B11MNofu1lkAdnNuMUdkYWNzX2c/view?usp=sharing) in folder testfiles where 5 are written by tutor. I provided the debug cli output from my program named sampleX.debug.txt, 
+- currently we have 7 tests in folder testfiles where 5 are written by tutor. I provided the debug cli output from my program named sampleX.debug.txt, 
 please feel free to check correctness and report issues.
 
 ## Structure
